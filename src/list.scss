@@ -1,0 +1,22 @@
+.list {
+  width: 100%;
+  margin: 20px auto;
+  border-radius: 10px;
+  
+ // box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.5);
+  
+  &__item {
+    min-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    padding-top: 7px;
+    padding-left: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #FCE38A;
+    box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.5);
+
+}
+   
+}
+  

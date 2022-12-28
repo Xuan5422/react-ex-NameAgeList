@@ -1,0 +1,26 @@
+@import "./form.scss";
+@import "./list.scss";
+@import "./errormessage.scss";
+//@import "./variables.scss";
+
+.app {
+  font-family: sans-serif;
+  font-weight: bold;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  &__main {
+    width: 40vw;
+    margin: 40px auto;
+  }
+  &__error {
+    position: absolute;
+    left: 0px;
+    top: -40px;
+    padding: 0;
+  }
+
+
+}

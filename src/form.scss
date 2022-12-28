@@ -1,0 +1,45 @@
+.wrapper {
+  
+  background-color: #FCE38A;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  &__botton {
+    margin-top: 10px;
+    height: 40px;
+    border: none;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: #E32636;
+  }
+  &__lable {
+    padding-bottom: 3px;
+  }
+
+  &__name, &__age {
+    height: 27px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+  }
+  
+}
+
+
+
+
+
+
+
+
